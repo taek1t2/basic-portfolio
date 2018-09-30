@@ -1,0 +1,49 @@
+/* font-family: 'Inconsolata', monospace; */
+
+body {
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    background: #4aaa5;
+    margin: 0 auto;
+    padding: 20px;
+    width: 960px;
+    background: url("../images/Homepage2.jpg");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    clear: both;
+    float: right;
+}
+
+aside {
+    float: right;
+}
+
+header {
+    max-width: 980px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background: #406B80;
+    position: static;
+    font-size: 45px;
+    text-align: end;
+}
+
+nav {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    padding: 2em;
+    width: 200px, 75px;
+    background: #d6d6d6;
+    float: left;
+}
+
+
