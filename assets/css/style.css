@@ -4,18 +4,26 @@ body {
 
 .container {
     margin: auto;
-
 }
 
 #about:hover {
-    color: red;
+    background-color: #cc0000;
+    color: #a98855;
+    border: 2px solid transparent;
+    border-radius: 4px;
 }
 
 #portfolio:hover {
-    color: #0059D1;
+    background-color: #0066cc;
+    color: #a98855;
+    border: 2px solid transparent;
+    border-radius: 4px;
 }
 
 #contact:hover {
-    color: #FFD700;
+    background-color: #ffcc00;
+    color: #a98855;
+    border: 2px solid transparent;
+    border-radius: 4px;
 }
 
