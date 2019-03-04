@@ -1,29 +1,83 @@
+/* master layout */
+
 body {
-    background: url('/Users/taekim/Desktop/code/Repository/basic-portfolio/assets/css/images/Crumpled-and-Creased-Kraft-Paper-Texture.jpg');
+    background: url('/Users/taekim/Desktop/code/Repository/basic-portfolio/assets/css/images/Crumpled-and-Creased-Kraft-Paper-Texture.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.container {
-    margin: auto;
+#logo {
+    font-size: 35px;
+}
+
+.nav-link {
+    margin-right: 5px;
+}
+
+#about {
+    color: #cc0000;
+    border: 2px solid  #cc0000;
+    border-radius: 4px;
+    letter-spacing:1px;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 
 #about:hover {
     background-color: #cc0000;
     color: #a98855;
     border: 2px solid transparent;
+}
+
+#portfolio {
+    color: #0066cc;
+    border: 2px solid #0066cc;;
     border-radius: 4px;
+    letter-spacing:1px;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 
 #portfolio:hover {
     background-color: #0066cc;
     color: #a98855;
     border: 2px solid transparent;
+}
+
+#contact {
+    color: #ffcc00;
+    border: 2px solid #ffcc00;
     border-radius: 4px;
+    letter-spacing:1px;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 
 #contact:hover {
     background-color: #ffcc00;
     color: #a98855;
     border: 2px solid transparent;
-    border-radius: 4px;
 }
 
+#mainBtn {
+    background-color: transparent;
+    color: green;
+    border-color: green;
+}
+
+/* index.html */
+.container{
+    margin: auto;
+}
+
+#mainBtn:hover {
+    background-color: green;
+    color: #a98855;
+}
+
+/* contact.html */
