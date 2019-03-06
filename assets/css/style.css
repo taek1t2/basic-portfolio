@@ -9,7 +9,13 @@ body {
 }
 
 #logo {
-    font-size: 35px;
+    font-size: 40px;
+    color: white;
+}
+
+.navbar {
+    width: 75%;
+    margin: 10px auto;
 }
 
 .nav-link {
@@ -64,20 +70,62 @@ body {
     border: 2px solid transparent;
 }
 
+/* index.html */
+.container {
+    width: 75%;
+    text-align: center;
+}
+
+.jumbotron {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+#mainBtn:hover {
+    background-color: #0066cc;
+    color: #a98855;
+}
+
 #mainBtn {
+    background-color: transparent;
+    color: #0066cc;
+    border-color: #0066cc;
+}
+
+p {
+    color: white;
+}
+
+#search:hover {
+    color: #a98855 !important;
+}
+
+.imgContainer {
+    border: 2px solid black;
+    outline:none;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+/* Portfolio.html */
+
+
+/* contact.html */
+
+.form {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#submit {
+    float: right;
     background-color: transparent;
     color: green;
     border-color: green;
 }
 
-/* index.html */
-.container{
-    margin: auto;
-}
-
-#mainBtn:hover {
+#submit:hover {
     background-color: green;
     color: #a98855;
 }
 
-/* contact.html */
