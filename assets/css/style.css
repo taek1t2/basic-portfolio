@@ -1,7 +1,8 @@
 /* master layout */
 
 body {
-    background: url('/Users/taekim/Desktop/code/Repository/basic-portfolio/assets/css/images/crumpled-brown-paper-texture.jpg') no-repeat center center fixed;
+    /* Always a Relative Path not an Absolute */
+    background: url('images/crumpled-brown-paper-texture.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
