@@ -1,7 +1,7 @@
 /* master layout */
 
 body {
-    background: url('/Users/taekim/Desktop/code/Repository/basic-portfolio/assets/css/images/Crumpled-and-Creased-Kraft-Paper-Texture.jpg') no-repeat center center fixed;
+    background: url('/Users/taekim/Desktop/code/Repository/basic-portfolio/assets/css/images/crumpled-brown-paper-texture.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -100,11 +100,14 @@ p {
     color: #a98855 !important;
 }
 
-.imgContainer {
+.aboutMe {
     border: 2px solid black;
     outline:none;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    width: 350px;
+    height: 475px;
+    float: right;
 }
 
 /* Portfolio.html */
