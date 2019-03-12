@@ -71,15 +71,29 @@ body {
     border: 2px solid transparent;
 }
 
+
+#search:hover {
+    color: #84623c !important;
+}
+
 /* index.html */
+
 .container {
-    width: 75%;
-    text-align: center;
+    width: 950px;
+}
+
+.picture {
+    margin-right: 20px;
+    padding-top: 50px;
 }
 
 .jumbotron {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
+    text-align: center;
+    width: 620px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 #mainBtn:hover {
@@ -93,26 +107,26 @@ body {
     border-color: #0066cc;
 }
 
-#bioMe {
+p {
     color: white;
 }
 
-#search:hover {
-    color: #a98855 !important;
-}
 
 .aboutMe {
     border: 2px solid black;
     outline:none;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    width: 350px;
-    height: 475px;
+    width: 300px;
+    height: 400px;
     float: right;
 }
 
 /* Portfolio.html */
-
+.imgContainer {
+    width: 75%;
+    margin: 0 auto !important;
+}
 
 /* contact.html */
 
